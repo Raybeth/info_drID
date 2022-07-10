@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SXm6baqq+9kig6+gcf2YSXYzkVVxCNJ8o76AoSc3fvrImi27etHXTIhyLGew2L4gJ+3W/HGYz+2BNz3tYevhhg==",
+  "success": true,
+  "projectFilePath": "/home/lisbethjimenez/fp-tareas/PrimerParcial/PrimerParcial.csproj",
+  "expectedPackageFiles": [
+    "/home/lisbethjimenez/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
