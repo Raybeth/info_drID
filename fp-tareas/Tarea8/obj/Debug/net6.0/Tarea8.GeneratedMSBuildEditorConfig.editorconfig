@@ -1,0 +1,68 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tarea8
+build_property.RootNamespace = Tarea8
+build_property.ProjectDir = /home/lisbethjimenez/fp-tareas/Tarea8/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/lisbethjimenez/fp-tareas/Tarea8
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/AcercaDe.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNlcmNhRGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/Calculator.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FsY3VsYXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/Cedula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2VkdWxhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/Termometro.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVybW9tZXRyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pqgn0rlqt5
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-z1yn7fxrd2
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/lisbethjimenez/fp-tareas/Tarea8/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

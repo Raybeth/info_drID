@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Klq+bd51HiOSgosf2nMo7cOhB4l7tTE+uxVL77NqulTMd02byGm+BjBu2xhMVEUhdv9CK4eC1GcO0FG1l3cEBA==",
+  "success": true,
+  "projectFilePath": "/home/lisbethjimenez/fp-tareas/Tarea8/Tarea8.csproj",
+  "expectedPackageFiles": [
+    "/home/lisbethjimenez/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

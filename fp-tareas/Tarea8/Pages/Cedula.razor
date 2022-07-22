@@ -1,0 +1,59 @@
+@page "/cedula"
+
+<h3>Consulta de Cédula</h3>
+
+<div class="mt-3">
+    <label>Introduce el número de cédula: </label>
+    <input type="text" @bind="cedula" placeholder="Número de cédula"/>
+    <button @onclick="consult" class="btn btn-primary">Consultar</button>
+</div>
+
+@if (mostrar_error)
+{
+    <div class="text-danger mt-4">
+    <h3>Cédula no enconstrada.</h3>
+
+</div>
+}
+@if (persona.ok)
+{
+    <div class="mt-4">
+
+    <div>
+        <div>
+            <img src="@persona.foto">
+        </div>
+        <strong>Nombre:</strong> @persona.Nombres @persona.Apellido1 @persona.Apellido2
+    </div>
+    <div>
+        <strong>Fecha de Nacimiento: </strong> @persona.FechaNacimiento
+    </div>
+    <div>
+        <strong>Edad: </strong> @persona.edad()
+    </div>
+    <div>
+        <strong>Signo Zodiacal: </strong> @persona.signo()
+    </div>
+</div>
+}
+
+@code {
+    string cedula = "";
+    Persona persona = new Persona();
+    bool consulta = false;
+
+    bool mostrar_error = false;
+
+
+    void consult()
+    {
+
+        var url = "https://api.adamix.net/apec/cedula/" + cedula;
+
+        System.Net.WebClient client = new System.Net.WebClient();
+        string json = client.DownloadString(url);
+
+        persona = Newtonsoft.Json.JsonConvert.DeserializeObject<Persona>(json);
+        mostrar_error = !persona.ok;
+    }
+}

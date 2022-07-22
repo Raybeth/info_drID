@@ -1,0 +1,40 @@
+@page "/termometro"
+
+<div>
+    <h3>Conversor de Celcius a Fahrenheit y Kelvin</h3>
+</div>
+
+<div class="input-group mb-3">
+    <input type="number" placeholder="Ingrese grado Celcius" aria-describedby="addon-wrapping" @bind="celcius">
+    <button @onclick="both_alg" type="button" class="btn btn-info">Convertir</button>
+    
+
+
+</div>
+
+
+<div class="" mt-4>
+    <strong>Fahrenheit</strong> @fahrenheit
+</div>
+<div class="" mt-4>
+    <strong>Kelvin </strong> @kelvin
+</div>
+
+
+
+@code {
+    double fahrenheit;
+    double kelvin;
+
+    double celcius;
+
+    void both_alg()  // resolvemos ambos algoritmos en un mismo metodo 
+    {
+
+        fahrenheit = (celcius * 1.8) + 32;
+
+        kelvin = celcius + 273.15;
+
+    }
+
+}
